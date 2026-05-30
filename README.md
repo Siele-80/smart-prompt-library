@@ -18,7 +18,8 @@ A clean, interactive prompt library built with HTML, CSS, and JavaScript — des
 As a Generative AI specialist, I wanted to create a practical tool that makes prompt engineering accessible to everyone — from business owners to content creators.
 
 ## 🌐 Live Demo
-Coming soon
+## 🌐 Live Demo
+[Smart Prompt Library](https://Siele-80.github.io/smart-prompt-library)
 
 ## 👤 Author
 **Sharon Siele**
