@@ -1,3 +1,16 @@
+// ============================================
+// 🧠 Smart Prompt Library
+// ============================================
+// Author:   Sharon Siele
+// GitHub:   github.com/Siele-80
+// Portfolio: Sharon Siele.notion.site
+// License:  All rights reserved © 2026
+// 
+// Description:
+// An interactive AI prompt library built with
+// HTML, CSS & JavaScript. Browse, search and
+// copy ready-to-use AI prompts by category.
+// ============================================
 const prompts = [
   { category: "business", title: "Business Proposal Writer", text: "Write a compelling business proposal for [product/service] targeting [audience]. Include problem, solution, value proposition, pricing, and a strong call to action." },
   { category: "business", title: "SWOT Analysis Generator", text: "Conduct a detailed SWOT analysis for [company/idea]. Present strengths, weaknesses, opportunities, and threats in a structured, actionable format." },
