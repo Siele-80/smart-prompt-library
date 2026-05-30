@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Prompt Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🧠 Smart Prompt Library</h1>
+    <p class="subtitle">Select a category and get a ready-to-use AI prompt instantly</p>
+
+    <div class="category-grid">
+      <button class="cat-btn active" onclick="filterPrompts('all')">All</button>
+      <button class="cat-btn" onclick="filterPrompts('business')">Business</button>
+      <button class="cat-btn" onclick="filterPrompts('content')">Content Writing</button>
+      <button class="cat-btn" onclick="filterPrompts('social')">Social Media</button>
+      <button class="cat-btn" onclick="filterPrompts('email')">Email</button>
+      <button class="cat-btn" onclick="filterPrompts('productivity')">Productivity</button>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search prompts..." oninput="searchPrompts()" />
+    </div>
+
+    <div class="prompt-grid" id="promptGrid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
